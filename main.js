@@ -344,5 +344,5 @@ document.getElementById("solve_btn").addEventListener("click",()=>{
 
 
 
-let new_maze =  new Maze(400,10,10); //creates a new maze of size 400px and 10 rows and columns.
+let new_maze =  new Maze(500,10,10); //creates a new maze of size 400px and 10 rows and columns.
 new_maze.drawMaze();
