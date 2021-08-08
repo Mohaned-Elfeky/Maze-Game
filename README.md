@@ -3,3 +3,5 @@
   <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
 
 2d JavaScript maze game that uses **randomized Depth first search algorithm** to generate random mazes .Users can navigate the maze to try to reach the goal or press the solve button which automatically solves the maze.
+
+**Link :** https://mohaned-elfeky.github.io/Maze-Game/
