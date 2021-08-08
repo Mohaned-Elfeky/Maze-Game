@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: gray;
+  
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+#solved_container{
+    display: none;
+    height: 120px;
+    width:500px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 auto;
+    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+#maze_container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+
+#maze{
+    margin-right: 50px;
+    margin-left: 400px;
+    
+    
+}
+
+#right_pannel{
+    height: 400px;
+    text-align: center;
+    
+    
+}
+
+#restart_btn{
+    margin-top: 20px;
+    border: 1px white solid;
+    border-radius: 2px;
+    padding: 3px;
+}
+
+#restart_btn:hover{
+    cursor: pointer;
+    border: 1.5px white solid;
+}
+
+h1{
+    margin-bottom: 30px;
+}
+
+#solve_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: larger;
+    width: 100px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    
+}
+
+#solve_btn:hover{
+    cursor: pointer;
+    border: 3px solid black;
+}
+
+img{
+    height: 100px;
+    width: 150px;
+}
